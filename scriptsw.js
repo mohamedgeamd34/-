@@ -1,5 +1,5 @@
 const games = [
-  {id:"gta-sa",title:"GTA: San Andreas",size:"1.8 GB",genre:"مغامرة",desc:"نسخة مضغوطة من GTA: San Andreas تعمل على ويندوز.",thumb:"thumbs/gta-sa.jpg",file:"downloads/gta-sa.zip"},
+  {id:"gta-sa",title:"GTA: San Andreas",size:"1.8 GB",genre:"مغامرة",desc:"نسخة مضغوطة من GTA: San Andreas تعمل على ويندوز.",thumb:"thumbs/gta-sa.jpg",file:"https://archive.org/details/gta-san-andreas-1"},
   {id:"need-for-speed",title:"Need For Speed: Most Wanted",size:"2.4 GB",genre:"سباق",desc:"نسخة مضغوطة من NFS Most Wanted.",thumb:"thumbs/nfs.jpg",file:"downloads/nfs-most-wanted.zip"},
   {id:"minecraft-pc",title:"Minecraft (Launcher)",size:"0.5 GB",genre:"بناء",desc:"نسخة للكمبيوتر مع ملفات تثبيت.",thumb:"thumbs/minecraft.jpg",file:"downloads/minecraft.zip"},
   {id:"far-cry",title:"Far Cry 3",size:"4.2 GB",genre:"اطلاق نار",desc:"نسخة مضغوطة من Far Cry 3.",thumb:"thumbs/fc3.jpg",file:"downloads/farcry3.zip"}
@@ -118,3 +118,4 @@ closeModal2.addEventListener('click', closeModalFn);
 modal.addEventListener('click', (e)=>{ if(e.target === modal) closeModalFn(); });
 document.addEventListener('keydown', (e)=>{ if(e.key === "Escape") closeModalFn(); });
 render();
+
